@@ -1,0 +1,97 @@
+.greatcoffee__title{
+  color: rgb(254, 252, 247);
+font-family: Fraunces 9pt;
+font-size: 72px;
+font-weight: 900;
+line-height: 72px;
+margin-bottom: 32px;
+}
+.greatcoffee__text{
+  color: rgb(254, 252, 247);
+font-family: Barlow;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.8;
+margin-bottom: 50px;
+}
+.greatcoffee__contentblok{
+  width: 481px;
+  margin-left: 86px;
+  margin-top: 86px;
+}
+.greatcoffee__button{
+  color: rgb(254, 252, 247);
+font-family: Fraunces 9pt;
+font-size: 18px;
+font-weight: 900;
+line-height: 25px;
+padding: 15px 30px;
+text-align: center;
+border: none;
+border-radius: 6px;
+
+background: rgb(14, 135, 132);
+}
+.greatcoffee__container{
+  background-image: url("../../img/Bitmap\ \(7\).jpeg");
+  background-repeat: no-repeat;
+  padding: 20px;
+  height: 570px;
+}
+
+
+
+
+@media screen and (max-width:687px) {
+  .greatcoffee__container{
+    background-image: url("../../img/Bitmap\ \(6\).jpeg");
+  }
+}
+
+
+
+@media screen and (max-width:596px){
+  .greatcoffee__contentblok{
+    width: 398px;
+    margin-left: 30px;
+  }
+  .greatcoffee__title{
+    color: rgb(254, 252, 247);
+font-family: Fraunces 9pt;
+font-size: 48px;
+font-weight: 900;
+line-height: 48px;
+
+  }
+  .greatcoffee__text{
+    color: rgb(254, 252, 247);
+font-family: Barlow;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+
+  }
+} 
+
+
+
+
+@media screen and (max-width:523px) {
+  .greatcoffee__container{
+    background-image: url("../../img/Bitmap\ \(5\).jpeg");
+  }
+
+}
+
+
+
+
+@media screen and (max-width:464px) {
+  .greatcoffee__contentblok{
+width: 279px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+  }
+}

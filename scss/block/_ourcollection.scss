@@ -1,0 +1,66 @@
+.ourcollection__title{
+  color: rgb(51, 61, 75);
+font-family: Fraunces 9pt;
+font-size: 24px;
+font-weight: 900;
+line-height: 32px;
+
+text-align: center;
+margin-bottom: 20px;  
+}
+.ourcollection__list{
+  display: flex;
+  justify-content: space-between;
+ padding-top: 180px;
+}
+.ourcollection__item{
+  width: 255px;
+}
+.ourcollection__text{
+  color: rgb(51, 61, 75);
+font-family: Barlow;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+}
+.ourcollection__container{
+  background-image: url("../../img/Group\ 29.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+
+
+
+
+
+@media screen and (max-width:1020px) {
+  .ourcollection__item{
+    display: flex;
+    width: 573px;
+    align-items: center;
+  }
+  .ourcollection__list{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+  }
+  .ourcollection__img{
+    width: 255px;
+  }
+  .ourcollection__contentblok{
+    width: 282px;
+  }
+}
+
+
+
+
+@media screen and (max-width:572px) {
+.ourcollection__item{
+  flex-direction: column;
+  width: 282px;
+  
+}  
+}
